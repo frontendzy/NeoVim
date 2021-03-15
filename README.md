@@ -19,7 +19,7 @@
 > 使用的是[vim-plug](https://github.com/junegunn/vim-plug), 一款很好用的插件管理器!
 > 在`init.vim`文件中加入以代码
 ```
-call plug#begin('~/AppData/Local/nvim/plugged')
+call plug#begin('插件存放的位置')
 Plug "填写GitHub仓库名"
 Plug 'preservim/nerdtree'
 call plug#end()
